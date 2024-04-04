@@ -12,13 +12,13 @@ export function DataInput({ label }: { label?: string }) {
       <textarea
         id={label}
         placeholder="Qual codigo você deseja quebrar hoje?"
-        className="w-96 rounded-lg ring-1 ring-slate-300 resize-none p-5 focus:outline-none"
+        className="w-80 rounded-lg ring-1 ring-slate-300 resize-none p-5 focus:outline-none"
         spellCheck="false"
       />
     </div>
   ) : (
     <textarea
-      className="h-96 w-96 rounded-lg ring-1 ring-slate-300 resize-none p-5 focus:outline-none"
+      className="h-96 w-80 rounded-lg ring-1 ring-slate-300 resize-none p-5 focus:outline-none"
       spellCheck="false"
     />
   )

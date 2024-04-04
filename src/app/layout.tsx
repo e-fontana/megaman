@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`${inter.className} min-h-screen bg-slate-100 antialiased`}
+        className={`${inter.className} min-h-screen bg-slate-100 antialiased py-10`}
       >
         <Header />
         <main>{children}</main>
