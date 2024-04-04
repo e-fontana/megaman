@@ -9,8 +9,9 @@ export function DataInput({ label }: { label?: string }) {
         </label>
         <SelectCode />
       </div>
-      <textarea
+      <input
         id={label}
+        type="text"
         placeholder="Qual codigo você deseja quebrar hoje?"
         className="w-80 rounded-lg ring-1 ring-slate-300 resize-none p-5 focus:outline-none"
         spellCheck="false"

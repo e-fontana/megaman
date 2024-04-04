@@ -1,11 +1,9 @@
-import { Form } from '@/components/form'
+import { MainForm } from '@/components/form'
 
 export default function Home() {
   return (
     <div>
-      <div>
-        <Form />
-      </div>
+      <MainForm />
     </div>
   )
 }
